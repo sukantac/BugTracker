@@ -3,11 +3,12 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-
+import { bugTrackerComponent } from './bugTracker/bugTracker.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    bugTrackerComponent
   ],
   imports: [
     BrowserModule
